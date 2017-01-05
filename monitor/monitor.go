@@ -11,10 +11,10 @@ type Monitor interface {
 }
 
 type SimpleMonitor struct {
-	config *config.Config
+	config config.Config
 }
 
-func NewSimpleMonitor(config *config.Config) *SimpleMonitor {
+func NewSimpleMonitor(config config.Config) *SimpleMonitor {
 	return &SimpleMonitor{
 		config: config,
 	}

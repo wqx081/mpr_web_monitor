@@ -41,7 +41,6 @@ func main() {
 }
 
 /*
-
 Start(config *Config) {
 	pingInterval := config.GetPingInterval()
 	pingTimeout := config.GetPingTimeout()
