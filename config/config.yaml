@@ -1,0 +1,8 @@
+ping_interval: 1000
+ping_timeout: 2
+retry_count: 5
+servers:
+  - name: "book_server"
+    url: "http://book_server/api"
+  - name: "cp portal"
+    url: "http://cp_portal/api"
